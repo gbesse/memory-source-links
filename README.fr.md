@@ -12,6 +12,16 @@ python3 receipt.py demo --lang fr
 
 La fixture résout `f1` et `o2`, puis montre que `f3` n’a pas de reçu. Le code 1 signale une citation introuvable.
 
+**Exemple de sortie**
+
+```text
+Liens des citations de mémoire
+Exemple hors ligne. Capturez les alias tant que le contexte source est disponible.
+f1: memory-001 (résolu)
+f3: ? (introuvable)
+o2: observation-002 (résolu)
+```
+
 ## Projets voisins
 
 - [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight/issues/4876) — Signale des alias `f3/o2` introuvables dans un rapport de mémoire ; cette issue motive les reçus durables.

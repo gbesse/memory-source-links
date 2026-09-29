@@ -12,6 +12,16 @@ python3 receipt.py demo --lang es
 
 El ejemplo resuelve `f1` y `o2`, y muestra que `f3` no tiene recibo. El código 1 indica una cita sin resolver.
 
+**Ejemplo de salida**
+
+```text
+Enlaces de citas de memoria
+Ejemplo sin conexión. Capture los alias mientras el contexto de origen esté disponible.
+f1: memory-001 (resuelto)
+f3: ? (sin resolver)
+o2: observation-002 (resuelto)
+```
+
 ## Proyectos cercanos
 
 - [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight/issues/4876) — Informa de alias `f3/o2` sin resolver en un informe de memoria; motiva recibos duraderos.

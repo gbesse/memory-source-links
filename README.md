@@ -12,6 +12,16 @@ python3 receipt.py demo --lang en
 
 The fixture resolves `f1` and `o2`, while showing that `f3` has no receipt. Exit code 1 means a citation is unresolved.
 
+**Example output**
+
+```text
+Memory citation links
+Offline fixture. Capture aliases while the source context is still available.
+f1: memory-001 (resolved)
+f3: ? (unresolved)
+o2: observation-002 (resolved)
+```
+
 ## Related projects
 
 - [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight/issues/4876) — Reports unresolved `f3/o2` aliases in a mental-model output; the issue motivates durable receipts.
